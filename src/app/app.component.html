@@ -1,14 +1,16 @@
-<ion-app>
+<ion-app  class="lista1">
 
-  <ion-menu side="start" menuId="first" contentId="main">
-    <ion-header>
-      <ion-toolbar color="primary">
-        <ion-title routerLink="home">Inicio</ion-title>
-
+  <ion-menu side="start" menuId="first" contentId="main"  class="lista1">
+    <ion-header >
+      <ion-toolbar  >
+        <ion-item routerLink="/home" color="transparente"  class="lista3">
+          <ion-icon name="home-outline" slot="start" ></ion-icon>
+          <h3>Inicio</h3>
+        </ion-item>
       </ion-toolbar>
     </ion-header>
-    <ion-content>
-      <ion-list>
+    <ion-content >
+      <ion-list class="lista">
         <ion-menu-toggle>
           <ion-item routerLink="/plagicidas">
           <ion-icon name="caret-forward-outline" slot="start" ></ion-icon>
